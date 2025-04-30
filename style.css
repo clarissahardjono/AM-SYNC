@@ -1,0 +1,103 @@
+body{
+  background-color: #FFFAE9;
+  font-family: 'Quicksand', sans-serif;
+  color: #4A4A4A;
+}
+h1{
+  font-size: xx-large
+}
+.whole {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.section{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.mood-section{
+  background-color: #FFE9A6;
+}
+.moods{
+  display: flex;
+  gap: 30px;
+}
+.mood{
+  background: none;
+  border: none;
+  font-size: xx-large;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.mood:hover{
+  transform: scale(1.5);
+}
+.weather-section{
+  background-color: #B8E0FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.weather-icon{
+  font-size: xx-large;
+}
+.weather-info #temperature {
+  font-size: xx-large;
+}
+.weather-info #condition {
+  font-size: xx-large;
+}
+
+.outfit-section{
+  background-color: #D7ECD9;
+  text-align: left;
+}
+.outfit-row{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.outfit-icons {
+  display: flex;
+  align-items: center;
+}
+.outfit-icons img {
+  width: 40px;
+}
+.outfit-list {
+  text-align: left;
+}
+
+.outfit-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.outfit-item img {
+  width: 28px;
+  height: auto;
+  object-fit: contain;
+}
+
+.spotify-section {
+  background-color: #F3EFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.mood-section p,
+.outfit-section p,
+.spotify.header {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
